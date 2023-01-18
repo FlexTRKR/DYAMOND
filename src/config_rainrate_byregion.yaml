@@ -1,0 +1,32 @@
+---
+# Date range
+start_datetime: '2020-02-01'
+end_datetime: '2020-02-28'
+# Subset region bounds
+# region: 'maritime_continent'
+# lon_bounds: [95.0, 150.0]
+# lat_bounds: [-20.0, 15.0]
+# region: 'wpacific'
+# lon_bounds: [150.0, 230.0]
+# lat_bounds: [-30.0, 15.0]
+# region: 'indian_ocean'
+# lon_bounds: [40.0, 95.0]
+# lat_bounds: [-25.0, 15.0]
+# region: 'africa'
+# lon_bounds: [10.0, 40.0]
+# lat_bounds: [-20.0, 5.0]
+# region: 'amazon'
+# lon_bounds: [285.0, 320.0]
+# lat_bounds: [-20.0, 0.0]
+region: 'tropics'
+lon_bounds: [0.0, 360.0]
+lat_bounds: [-20.0, 15.0]
+# Data directory
+indir: '/global/cfs/cdirs/m1867/zfeng/dyamond-winter/'
+outdir: '/global/cfs/cdirs/m1867/zfeng/dyamond-winter/'
+# Perlmutter SCRATCH
+# indir: '/pscratch/sd/f/feng045/dyamond-winter/'
+# outdir: '/pscratch/sd/f/feng045/dyamond-winter/'
+# Land mask file
+landmask_file: '/global/cfs/cdirs/m1867/zfeng/dyamond-winter/maps/IMERG_Tb_landseamask_1200x3600_0-360.nc'
+# landmask_file: '/global/cscratch1/sd/feng045/E3SM/SCREAMv0/maps/IMERG_Tb_landseamask_1200x3600_0-360.nc'
